@@ -1,0 +1,62 @@
+//: Playground - noun: a place where people can play
+
+import UIKit
+//Kenapa Kita Pakai Function
+
+//print("Hello Assalamu'alaikum")
+//print("Walaikum Salam")
+//print("Perkenalkan Nama Saya Zidni Ridwan Nulmuarif, Nama Kamu Siapa")
+//print("Nama Saya Ridwan")
+//
+//print("Hello Assalamu'alaikum")
+//print("Walaikum Salam")
+//print("Perkenalkan Nama Saya Zidni Ridwan Nulmuarif, Nama Kamu Siapa")
+//print("Nama Saya Ridwan")
+//
+//print("Hello Assalamu'alaikum")
+//print("Walaikum Salam")
+//print("Perkenalkan Nama Saya Zidni Ridwan Nulmuarif, Nama Kamu Siapa")
+//print("Nama Saya Ridwan")
+//
+//print("Hello Assalamu'alaikum")
+//print("Walaikum Salam")
+//print("Perkenalkan Nama Saya Zidni Ridwan Nulmuarif, Nama Kamu Siapa")
+//print("Nama Saya Ridwan")
+
+
+//Function Sederhana
+func chatKu() {
+    print("Hello Assalamu'alaikum")
+    print("Walaikum Salam")
+    print("Perkenalkan Nama Saya Zidni Ridwan Nulmuarif, Nama Kamu Siapa")
+    print("Nama Saya Ridwan")
+}
+
+chatKu()
+chatKu()
+chatKu()
+
+//Function dengan paramater angka
+
+func tambah(angak1: Int, angka2: Int){
+    print(angak1+angka2)
+}
+tambah(angak1: 10, angka2: 10)
+
+
+//Function dengan return dashkey
+func kali(num1: Int, num2: Int) -> Int{
+    return num1 * num2
+}
+
+print(kali(num1: 12, num2: 10))
+
+//menyederhanakan function
+var simple = kali(num1: 11, num2: 11)
+print(simple)
+
+
+
+
+
+
